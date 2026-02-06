@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>TimeTable</title>
+  </head>
+  <body>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color: white;
+      }
+
+      .tables {
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      table {
+        border-collapse: collapse;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.8rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        scale: 1.1;
+        max-width: 80% !important;
+        border-style: double;
+        padding: 0.3rem;
+      }
+
+      h2 {
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+        font-size: 2rem;
+      }
+
+      th,
+      td {
+        border: 1.2px solid #767676;
+        padding: 10px;
+        text-align: center;
+        padding: 0.8rem;
+      }
+
+      th {
+        background-color: #f4f4f4;
+      }
+
+      tr:nth-child(even) {
+        background-color: #f9f9f9;
+      }
+
+      .logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+      }
+
+      .logo img {
+        max-width: 50%;
+      }
+    </style>
+
+    <section class="logo">
+      <img src="logo.png" alt="Saveetha Logo" />
+    </section>
+    <hr size="2rem" />
+    <section class="tables">
+      <h2>Slot Time Table - ASWIN B (24900642)</h2>
+      <table class="timetable">
+        <tr>
+          <th>Day/Time</th>
+          <th>Monday</th>
+          <th>Tuesday</th>
+          <th>Wednesday</th>
+          <th>Thursday</th>
+          <th>Friday</th>
+          <th>Saturday</th>
+        </tr>
+        <tr>
+          <td>08:00 - 10:00</td>
+          <td colspan="2">FWAD</td>
+          <td>ADV. C</td>
+          <td colspan="2">FREE SLOT</td>
+          <td>ADV. C</td>
+        </tr>
+        <tr>
+          <td>10:00 - 12:00</td>
+          <td>FREE SLOT</td>
+          <td>ADV. C</td>
+          <td>FWAD</td>
+          <td>ADV. C</td>
+          <td>FWAD</td>
+          <td>FREE SLOT</td>
+        </tr>
+        <tr>
+          <td>12:00 - 01:00</td>
+          <td colspan="6">LUNCH</td>
+        </tr>
+        <tr>
+          <td>01:00 - 03:00</td>
+          <td>DBMS</td>
+          <td>FREE</td>
+          <td>MENTOR MEET</td>
+          <td>FWAD</td>
+          <td>ADV. C</td>
+          <td>FREE SLOT</td>
+        </tr>
+        <tr>
+          <td>03:00 - 05:00</td>
+          <td colspan="2">FREE SLOT</td>
+          <td>DBMS</td>
+          <td colspan="3">FREE SLOT</td>
+        </tr>
+      </table>
+
+      <table class="details">
+        <tr>
+            <th>S. No.</th>
+          <th>Subject Code</th>
+          <th>Subject Name</th>
+        </tr>
+        <tr>
+          <td>1.</td>
+          <td>19AI414</td>
+          <td>Fundamentals of Web Application Development (FWAD)</td>
+        </tr>
+        <tr>
+          <td>2.</td>
+          <td>19AI305</td>
+          <td>Advanced C Programming (ADV. C)</td>
+        </tr>
+        <tr>
+          <td>3.</td>
+          <td>19CS404</td>
+          <td>Database Management Systems & it's Applications (DBMS)</td>
+        </tr>
+      </table>
+    </section>
+  </body>
+</html>
