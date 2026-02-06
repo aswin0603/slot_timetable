@@ -132,5 +132,5 @@ Execute the program using runserver command.
 The program for creating slot timetable using basic HTML tags is executed successfully.
 
 
-Name : ASWIN B
+Name : ASWIN B \
 Register Number : 212224110007
